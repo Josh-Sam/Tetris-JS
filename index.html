@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+
+    <style>
+      #gameScreen {
+        border: 10px solid black;
+      }
+      #fullScreen {
+        border: 2px solid gray;
+      }
+      img {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img id="O" src="assets/images/Yellow.png" />
+    <img id="I" src="assets/images/lightBlue.png" />
+    <img id="L" src="assets/images/Orange.png" />
+    <img id="J" src="assets/images/Blue.png" />
+    <img id="Z" src="assets/images/Green.png" />
+    <img id="S" src="assets/images/Red.png" />
+    <img id="T" src="assets/images/Purple.png" />
+    <canvas
+      id="gameScreen"
+      width="400"
+      height="800"
+      style="position: absolute; left: 150pt; top: 75pt;"
+    ></canvas>
+    <canvas
+      id="fullScreen"
+      width="800"
+      height="1000"
+      style="position: absolute; left: 10pt; top: 10pt; fill: hotpink;"
+    >
+    </canvas>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
